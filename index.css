@@ -1,7 +1,7 @@
 li {
   display:inline;
   padding:3px;
-  margin:7px;
+  margin:5px;
   font: 10pt 'Open Sans', sans-serif;
 }
 
@@ -26,3 +26,44 @@ li {
   font: 12pt bold; 
 }
 
+footer{
+  width: 100%;
+  background-color: rgb(245,245,245);
+  position: absolute;
+  left:0;
+  bottom:0;
+  border-top:1px solid rgb(190,190,190);  
+}
+
+
+.bottom-right{
+  float:right;
+  color: rgb(90,90,90);
+}
+
+.bottom-left{
+  float:left;
+}
+
+.bottom-right li, .bottom-left li{
+  color: rgb(90,90,90);
+}
+
+a{
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a.button:hover {
+  text-decoration:none;
+}
+
+a.button:hover li {
+  background-color: rgb(255,255,255);
+  color: black;
+  font: 12pt bold;
+  border:1px solid rgb(190,190,190);
+}
