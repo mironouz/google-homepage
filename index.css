@@ -1,9 +1,15 @@
 li {
   display:inline;
-  padding:10px;
-  margin:5px;
+  padding:3px;
+  margin:7px;
+  font: 12px 'Open Sans', sans-serif;
 }
 
-ul{
+ul {
   text-align:right;
+  height: 50px;
+}
+
+li img {
+
 }
